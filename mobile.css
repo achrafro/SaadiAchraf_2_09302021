@@ -1,0 +1,30 @@
+
+@media (max-width : 500px) {
+:root {
+        --bleu: #0065FC;
+        --bleuclair :  #DEEBFF ;
+        --gris : #808080; 
+      }
+
+header { 
+margin-left:0px;
+ 
+}
+.logo {
+  width: 50%;
+}
+.inscrire{ order :1;}
+.heberge  { order :2;}
+.acti  { order :3;}
+
+
+  
+  
+
+
+
+
+
+
+
+    }  
