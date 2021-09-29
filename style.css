@@ -77,3 +77,47 @@ border-left: none;
 border-right: none;
 margin : 0 -4px;
    }
+
+.filtre { 
+margin-top: 25px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+max-width: 80vw;
+
+}   
+
+.icon {
+border:1px solid #CCC;
+border-radius: 50PX;
+position: relative;
+font-weight: 600;
+padding-right: 10px;
+margin-top: 10px;
+
+
+  }
+.iconcolor {
+ color : var(--bleu);
+position: relative;
+top: 3px;
+left :10px 
+  }
+
+
+
+ .iconfiltre { 
+background-color:var(--bleuclair);
+width: 55px;
+height: 38px;
+display: inline-block;
+border-radius: 50px;
+  }
+.iconfami {
+ 
+  width: 37px;
+  height: 38px;
+
+
+  }
