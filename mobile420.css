@@ -1,0 +1,42 @@
+
+@media (max-width : 420px) {
+:root {
+        --bleu: #0065FC;
+        --bleuclair :  #DEEBFF ;
+        --gris : #808080; 
+      }
+
+header {
+
+margin-bottom: 20px;
+
+}
+
+.heberge  {
+  padding: 10px;
+   }
+.acti  { 
+  padding: 10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }  
