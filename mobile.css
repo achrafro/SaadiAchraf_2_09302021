@@ -1,79 +1,44 @@
+/* Style Pour Mobile PHONE */
 
-@media (max-width : 616px) {
+
+@media (max-width : 420px) {
 :root {
         --bleu: #0065FC;
         --bleuclair :  #DEEBFF ;
         --gris : #808080; 
       }
-body { margin: 0px ; }
-header { 
-  width: 100%;
- margin-bottom: 37px;
- justify-content: flex-start;
+
+header {
+
+margin-bottom: 20px;
+
 }
-.logo {
-  margin-left: 27px;
-  flex :50vw;
-}
-.inscrire{ order :1; padding: 21px ; flex :10vw;}
+
 .heberge  {
-   order :2;
-   padding: 21px;
-   border-top: none;
-   border-bottom: 2px solid var(--bleu);
-   flex: 40vw;
+  padding: 10px;
    }
 .acti  { 
-  order :3;
-  padding: 21px;
-   border-bottom: 2px solid var(--gris);
-flex : 40vw;
+  padding: 10px;
  }
 
 
-/*  transormer button en image de loop */
-
-.recherche-logement .btn_rech {
-  text-indent: -9999px;
-  line-height: 0;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  position: relative;
-  left: -6;
-
-   }
-   .btn_rech::after{
-    content: url(images/loop.png);
-    text-indent: 0;
-    display: block;
-    width: 33px;
-    height: 0px;
-    position: relative;
-    top: -17px;
-    left: -5px;
-   
-    }
-
-/*   recherche logement  */
-.recherche-logement {
-  width: 90%;
-  margin: 0 auto ;
-
-}
 
 
 
 
 
-.filtre h3 {
 
-  width: 100vw;
-  
-    }
+
+
+
+
+
+
+
+
+
+
 
 
 
     }  
-
-
-  

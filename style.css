@@ -1,14 +1,29 @@
-:root {
-    --bleu: #0065FC;
-    --bleuclair :#DEEBFF ;
-    --gris : #808080; 
-  }
+/* Stype Pour Desktop  */
 
-body{ font-family: 'Raleway', sans-serif; margin: 0 50px ;}
+
+
+*{margin : 0px}
+.tout-sauf-footer { margin-left: 50px;}
+:root {
+--bleu: #0065FC;
+--bleuclair :#DEEBFF ;
+--gris : #F2F2F2; 
+}
+
+body{ font-family: 'Raleway', sans-serif; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+
+/*  Header propertyyy */
+/*************/
+/*************/
+
 
 header{
-margin: 0 ;
-width: 90%;
+width: 992px;
 height: 100px;
 display: flex;
 flex-wrap: wrap;
@@ -24,11 +39,11 @@ text-decoration: none;
 text-align: center;
 }
 
- 
+
 .logo { flex-grow: 4;}  
 
 .heberge {color: var(--bleu); padding: 21px; border-top: 2px solid var(--bleu);}
-.acti {color: var(--gris); padding: 21px;}
+.acti {color: gray; padding: 21px;}
 .inscrire {color: var(--bleu);  padding: 21px;}
 
 
@@ -38,7 +53,7 @@ text-align: center;
 /*  Recherche logement  */
 
 .recherche-logement {
-   margin: 0 50px ;
+margin: 0 50px ;
 
 }
 .recherche-logement .p1 {font-weight: 600;}
@@ -46,19 +61,19 @@ text-align: center;
 
 .placeicon {
 
-  background-color: #ccc;
-  width: 55px;
-  height: 42px;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-  display: inline-block;
-  position: relative;
-  top:16px;
-  left:0px;
- }
- .iconplace1 { position: absolute; left:18px; top:5px; }
+background-color: #ccc;
+width: 55px;
+height: 42px;
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
+display: inline-block;
+position: relative;
+top:16px;
+left:0px;
+}
+.iconplace1 { position: absolute; left:18px; top:5px; }
 
- .recherche-logement .btn_rech {
+.recherche-logement .btn_rech {
 background-color: var(--bleu);
 border-top-right-radius: 15px;
 border-bottom-right-radius: 15px;
@@ -66,17 +81,19 @@ border:none;
 height: 42px;
 color: white;
 font-weight: 600; 
- }
+}
 
- .recherche-logement .inputtxt {
+.recherche-logement .inputtxt {
 
-  height: 42px;
- border-top : 1px solid #ccc;
- border-bottom : 1px solid #ccc;
+height: 42px;
+border-top : 1px solid #ccc;
+border-bottom : 1px solid #ccc;
 border-left: none;
 border-right: none;
 margin : 0 -4px;
-   }
+}
+
+/*  box filtre */
 
 .filtre { 
 margin-top: 25px;
@@ -84,7 +101,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
-max-width: 80vw;
+max-width: 992px;
 
 }   
 
@@ -97,27 +114,228 @@ padding-right: 10px;
 margin-top: 10px;
 
 
-  }
+}
 .iconcolor {
- color : var(--bleu);
+color : var(--bleu);
 position: relative;
 top: 3px;
 left :10px 
-  }
+}
 
 
 
- .iconfiltre { 
+.iconfiltre { 
 background-color:var(--bleuclair);
 width: 55px;
 height: 38px;
 display: inline-block;
 border-radius: 50px;
-  }
+}
 .iconfami {
- 
-  width: 37px;
-  height: 38px;
+
+width: 37px;
+height: 38px;
 
 
+}
+.info {
+
+display: flex;
+width : 70%;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+.info p { padding-left: 20px;}
+.info .iconinfo {
+color: var(--bleu);
+padding :5px;
+border: 1px solid #ccc;
+border-radius: 50%;
+}
+
+/*  Les 2 conteneur : hebergement + plus populaire */
+
+main {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+max-width: 992px;
+
+}
+/*  conteneur Hebergement property */
+
+.hebergement {
+
+width: 65%;
+display: flex;
+flex-wrap: wrap;
+border-radius: 25px;
+background-color: #F2F2F2;
+justify-content: center;
+justify-content: space-around;
+}
+.hebergement h3 {
+width: 100%;
+margin: 25px;
+}
+.hebergement .box {
+
+background-color:white;
+width : 30%;
+height: 197px;
+margin-bottom: 35px;
+border-radius: 25px;
+padding: 3px;
+box-shadow: #ccc 5px 5px 5px;
+display: flex;
+flex-wrap: wrap;
+justify-content: start;
+}
+.hebergement .box img {
+width: 100%;
+height: 50%;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+display: block;
+
+}
+.hebergement-name {
+width: 100%;
+display: block;
+margin-left: 5%;
+}
+.prix-hebergement {
+width: 100%;
+display: block;
+margin-left: 5%;
+
+} 
+.rating {
+display: block;
+width: 100%;
+margin-left: 5%;
+
+}
+
+
+/*  les plus populaire property */
+
+.populaire {
+width: 30%;
+background-color: var(--gris);
+border-radius: 25px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+} 
+
+.populaire .box {
+background-color:white;
+border-radius: 25px;
+width: 90%;
+height: 110px;
+padding:3px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-evenly;
+white-space: nowrap;
+
+}
+.populaire .box img{
+width: 40%;
+height: 109px;
+border-top-left-radius:25px ;
+border-bottom-left-radius:25px ;
+
+}
+.titre-trend {
+width: 10%;
+
+} 
+
+/*   Activite marseille  */
+
+
+.activite-marseille {
+margin-top: 33px;
+height: 520px;
+width: 90%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-content: flex-start;
+
+}
+
+.titre-act-mrs h2 {
+margin-top: 25px;
+
+}
+.activite-marseille h4{
+
+margin-left: 15px;  
+
+}
+
+
+
+/*  box 1 et box 4 property */
+
+.activite-marseille .box1-4{
+
+width: 223px;
+height: 381px;
+margin-top: 15px;
+border : 1px #ccc solid;
+border-radius: 25px;
+box-shadow: #ccc 5px 5px 5px;
+margin-right: 15px;
+}      
+
+.activite-marseille .img1-4{
+
+  width: 223px;
+  height: 345px;
+  border-top-left-radius: 25px; 
+  border-top-right-radius: 25px; 
+  margin-bottom: 15px;
   }
+  
+/*  box 2 + 3+ 5 + 6 property */
+
+.activite-marseille .box2-3-5-6{
+
+width: 243px;
+height: 200px;
+margin-top: 15px;
+border : 1px #ccc solid;
+border-radius: 25px;
+box-shadow: #ccc 5px 5px 5px;
+margin-right: 15px;
+
+}      
+
+
+.activite-marseille .img2-3-5-6 {
+height: 147px;
+width: 243px;
+border-top-left-radius: 25px; 
+border-top-right-radius: 25px; 
+margin-bottom: 15px;
+}
+
+
+
+/*  fOOTER */
+
+
+footer{
+
+background-color: var(--gris);
+height: 250px;
+
+}

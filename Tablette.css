@@ -1,0 +1,49 @@
+/* Stype Pour Tablette  */
+
+@media (max-width : 992px) {
+ 
+header { 
+width: 100%;
+
+}
+
+.filtre {
+
+  width: 90%;
+
+
+}
+.hebergement {
+
+width: 90%;
+ 
+}
+.populaire {
+margin-top: 15px;  
+width: 90%;
+}
+
+.activite-marseille {
+ width: 50%; 
+ 
+}
+
+
+.activite-marseille .box1-4{
+
+ 
+
+}     
+.activite-marseille .img1-4{
+
+ 
+}
+
+
+
+
+
+
+
+
+}
