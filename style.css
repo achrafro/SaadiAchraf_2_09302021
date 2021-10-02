@@ -10,7 +10,7 @@
 --gris : #F2F2F2; 
 }
 
-body{ font-family: 'Raleway', sans-serif; }
+body{ font-family: 'Raleway', sans-serif; margin : 0 auto;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 margin-top: 0;
 margin-bottom: 0;
@@ -23,7 +23,7 @@ margin-bottom: 0;
 
 
 header{
-width: 992px;
+width: 90%;
 height: 100px;
 display: flex;
 flex-wrap: wrap;
@@ -160,7 +160,7 @@ main {
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-max-width: 992px;
+max-width: 90%;
 
 }
 /*  conteneur Hebergement property */
@@ -234,14 +234,14 @@ align-items: center;
 .populaire .box {
 background-color:white;
 border-radius: 25px;
-width: 90%;
+width: 80%;
 height: 110px;
 padding:3px;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 justify-content: space-evenly;
-white-space: nowrap;
+word-wrap: break-word;
 
 }
 .populaire .box img{
@@ -251,10 +251,17 @@ border-top-left-radius:25px ;
 border-bottom-left-radius:25px ;
 
 }
-.titre-trend {
-width: 10%;
+.icontrend {
+width: 80%;
+display: flex;
+justify-content: space-between;
 
 } 
+
+.populaire .box p {
+  width: 50%;
+ 
+}
 
 /*   Activite marseille  */
 
@@ -336,6 +343,18 @@ margin-bottom: 15px;
 footer{
 
 background-color: var(--gris);
-height: 250px;
+height: 200px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+justify-content: space-around;
+align-items: center;
+}
+.apropos  h2,.noshebergement h2,.assistance h2  {
+margin-bottom: 10px;
 
 }
+.apropos  h4,.noshebergement h4,.assistance h4  {
+  margin-bottom: 5px;
+
+  }
