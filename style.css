@@ -24,7 +24,6 @@ margin-bottom: 0;
 
 header{
 width: 90%;
-height: 100px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -54,10 +53,11 @@ text-align: center;
 
 .recherche-logement {
 margin: 0 50px ;
+word-wrap: break-word;
 
 }
-.recherche-logement .p1 {font-weight: 600;}
-.recherche-logement .p2 {font-weight: 300;}
+.recherche-logement .p1 {font-weight: 900; font-size: 24px;padding-bottom: 15px;}
+.recherche-logement .p2 {font-weight: 300;font-size: 18px;}
 
 .placeicon {
 
@@ -141,10 +141,11 @@ height: 38px;
 .info {
 
 display: flex;
-width : 70%;
 align-items: center;
 margin-top: 10px;
 margin-bottom: 15px;
+word-wrap: break-word;
+
 }
 .info p { padding-left: 20px;}
 .info .iconinfo {
@@ -160,7 +161,7 @@ main {
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-max-width: 90%;
+width: 95%;
 
 }
 /*  conteneur Hebergement property */
@@ -295,7 +296,7 @@ margin-left: 15px;
 .activite-marseille .box1-4{
 
 width: 223px;
-height: 381px;
+height: 400px;
 margin-top: 15px;
 border : 1px #ccc solid;
 border-radius: 25px;
@@ -317,7 +318,7 @@ margin-right: 15px;
 .activite-marseille .box2-3-5-6{
 
 width: 243px;
-height: 200px;
+height: 193px;
 margin-top: 15px;
 border : 1px #ccc solid;
 border-radius: 25px;
@@ -341,14 +342,14 @@ margin-bottom: 15px;
 
 
 footer{
-
+ 
 background-color: var(--gris);
-height: 200px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 justify-content: space-around;
 align-items: center;
+padding : 50px 0px;
 }
 .apropos  h2,.noshebergement h2,.assistance h2  {
 margin-bottom: 10px;
@@ -356,5 +357,5 @@ margin-bottom: 10px;
 }
 .apropos  h4,.noshebergement h4,.assistance h4  {
   margin-bottom: 5px;
-
+  font-weight: normal;
   }

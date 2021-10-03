@@ -5,21 +5,191 @@
 :root {
         --bleu: #0065FC;
         --bleuclair :  #DEEBFF ;
-        --gris : #808080; 
+        --gris : #F2F2F2; 
       }
+
+body {
+max-width: 420px;
+margin: 0 0;
+
+}
+.tout-sauf-footer {
+
+  margin: 0 0;
+
+}
+
+/* Header */
+
 
 header {
 
 margin-bottom: 20px;
+width: 100%;
+}
+.logo {
+  flex-basis: 40%;
+  padding-left: 10%; 
+  padding-bottom: 7%;
 
 }
 
-.heberge  {
-  padding: 10px;
+header .heberge { 
+flex-basis: 50%;
+order : 3;
+border-top: none;
+padding: 0;
+padding-bottom: 20px;
+border-bottom: 3px solid var(--bleu);
+}
+header .acti { 
+  flex-basis: 50%;
+  order:4;
+padding: 0;
+padding-bottom: 20px;
+border-bottom: 3px solid var(--gris);
+
+
+}
+
+header .inscrire { 
+  flex-basis: 50%;
+  order: 2;
+  padding: 0;
+
+}
+       /* Fin header*/
+ 
+               /* Recherche logement */
+
+
+.recherche-logement .p1,.recherche-logement .p2  {margin-left: 10%;  }
+.formulaire { margin: 0 50px; }
+.btn_rech {
+
+  text-indent: -9999px;
+  line-height: 0;
+  width: 50px;
+  position: relative;
+  top: -8px;
+
+}
+.recherche-logement .inputtxt {
+  max-width: 156px;
+}
+
+.btn_rech::after {
+  content: url(images/loop.png);
+  text-indent: 0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top:-11px;
+
+}
+
+
+              /* Fin Recherche logement */
+
+              /* Filtre */
+.filtre {justify-content: flex-start; margin-left: 10%; }
+.filtre h3 { flex-basis: 100%;}
+.filtre .icon {margin-left: 5px;}
+              /* Fin Filtre */
+
+              /* info */
+.info {margin-left: 10%; word-wrap: break-word;margin-top: 25px; }
+.info p { word-wrap: break-word; padding-left: 5px;}
+
+
+/* Hebergement box pour mobile */
+.hebergement {
+background-color: white;
+width: 100%;
+order: 2;
+justify-content: center;
    }
-.acti  { 
-  padding: 10px;
- }
+.hebergement .box {
+Flex-basis: 85%;
+background-color: white;
+margin: 15px auto; 
+
+}
+
+.hebergement-titre , .lepp-titre{
+  font-size: 24px;
+}
+
+/*   Fin hebergement */
+
+/* Debut Les plus populaires  */
+.populaire {
+ border-radius: 0;
+ width: 100%;
+padding : 15px 0;}
+
+.populaire .box {
+margin-top: 14px;
+
+}
+
+/* Main */
+
+main {
+  display: flex;
+  width: 100%;
+  }
+
+/* Activité a Marseillle  */
+
+.activite-marseille {
+height: auto;
+width: 100%;
+align-content: center;
+margin-bottom: 20px;
+}
+.activite-marseille .box1-4 , .activite-marseille .box2-3-5-6  {
+width: 361px;
+height: 252px;
+}
+.activite-marseille .img1-4 ,.activite-marseille .img2-3-5-6 {
+width: 360px;
+height: 210px;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+margin-bottom: 15px; 
+} 
+.titre-act-mrs h2 {
+  margin-left: 50px;
+  
+  }
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+      /* Footer*/
+footer {
+
+display: flex;
+flex-direction: column;
+
+}
+
+
+
+
+.apropos , .noshebergement , .assistance{ 
+width: 100%;
+margin : 20px 50px
+}
+
+    /* Fin Footer*/
+
+}
 
 
 
@@ -39,6 +209,4 @@ margin-bottom: 20px;
 
 
 
-
-
-    }  
+    
