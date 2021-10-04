@@ -2,15 +2,16 @@
 
 
 
-*{margin : 0px}
-.tout-sauf-footer { margin-left: 50px;}
+*{margin : 0px;box-sizing: border-box;}
+.tout-sauf-footer  { margin-left: 50px;}
+
 :root {
 --bleu: #0065FC;
 --bleuclair :#DEEBFF ;
 --gris : #F2F2F2; 
 }
 
-body{ font-family: 'Raleway', sans-serif; margin : 0 auto;}
+body{ font-family: 'Raleway', sans-serif; margin : 0;  overflow-x: hidden;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 margin-top: 0;
 margin-bottom: 0;
@@ -23,7 +24,7 @@ margin-bottom: 0;
 
 
 header{
-width: 90%;
+width: 95%;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -46,30 +47,33 @@ text-align: center;
 .inscrire {color: var(--bleu);  padding: 21px;}
 
 
-}
+
 
 
 /*  Recherche logement  */
 
 .recherche-logement {
-margin: 0 50px ;
+margin: 25px 50px ;
 word-wrap: break-word;
 
 }
 .recherche-logement .p1 {font-weight: 900; font-size: 24px;padding-bottom: 15px;}
 .recherche-logement .p2 {font-weight: 300;font-size: 18px;}
 
+
+.formulaire {display: flex; margin-top: 25px;}
+
 .placeicon {
 
-background-color: #ccc;
+background-color : var(--gris);
 width: 55px;
 height: 42px;
 border-top-left-radius: 25px;
 border-bottom-left-radius: 25px;
 display: inline-block;
 position: relative;
-top:16px;
-left:0px;
+left: -4PX;
+ 
 }
 .iconplace1 { position: absolute; left:18px; top:5px; }
 
@@ -101,8 +105,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
-max-width: 992px;
-
+width: 80%;
 }   
 
 .icon {
@@ -113,8 +116,13 @@ font-weight: 600;
 padding-right: 10px;
 margin-top: 10px;
 
+}
+
+.icon:hover{
+transform: scale(1.1); 
 
 }
+
 .iconcolor {
 color : var(--bleu);
 position: relative;
@@ -235,19 +243,18 @@ align-items: center;
 .populaire .box {
 background-color:white;
 border-radius: 25px;
-width: 80%;
-height: 110px;
+width: 85%;
+height: 113px;
 padding:3px;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 justify-content: space-evenly;
 word-wrap: break-word;
-
 }
 .populaire .box img{
 width: 40%;
-height: 109px;
+height: 106px;
 border-top-left-radius:25px ;
 border-bottom-left-radius:25px ;
 
@@ -258,11 +265,32 @@ display: flex;
 justify-content: space-between;
 
 } 
+.flech { 
+align-self: center;
+
+}
 
 .populaire .box p {
   width: 50%;
  
 }
+
+.trend-hotel-name{
+  font-size: 14px;
+  font-weight: bold;
+  align-self: center;
+
+}
+.lepp-titre {
+  margin: 25px 0;
+  
+  
+  }
+.prix-trend {
+  align-self: center;
+
+}
+.rating2  { align-self: flex-start;}
 
 /*   Activite marseille  */
 
@@ -270,17 +298,17 @@ justify-content: space-between;
 .activite-marseille {
 margin-top: 33px;
 height: 520px;
-width: 90%;
+width: 100%;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-justify-content: flex-start;
-align-content: flex-start;
-
-}
+align-items: center;
+  }
 
 .titre-act-mrs h2 {
 margin-top: 25px;
+margin-left: 25px;
+
 
 }
 .activite-marseille h4{
@@ -359,3 +387,5 @@ margin-bottom: 10px;
   margin-bottom: 5px;
   font-weight: normal;
   }
+
+ 

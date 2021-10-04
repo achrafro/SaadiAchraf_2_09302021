@@ -1,49 +1,108 @@
 /* Stype Pour Tablette  */
 
-@media (max-width : 992px) {
- 
-header { 
+@media (min-width : 768px) and (max-width : 992px){
+body {width: 100%} 
+header{
 width: 100%;
 
 }
 
-.filtre {
-
-  width: 90%;
-
-
-}
 .hebergement {
 
-width: 90%;
- 
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+border-radius: 25px;
+background-color: #F2F2F2;
+justify-content: center;
+justify-content: space-around;
 }
+
+
 .populaire {
-margin-top: 15px;  
-width: 90%;
+margin-top: 25px;
+width: 100%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 15px;
+padding-bottom: 15px;
+} 
+.lepp-titre {
+margin: 25px 0;
+
 }
+
+.populaire .box {
+  background-color:white;
+  border-radius: 25px;
+  width: 35%;
+  height: 106px;
+  padding:3px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  word-wrap: break-word;
+  }
+
+
+
+/* Activité marseille */
+ 
 
 .activite-marseille {
- width: 50%; 
- 
-}
-
-
+display: grid; 
+height: auto;
+width: 95%;
+grid-template-columns: 25% 25% 25% 25% ;
+grid-template-rows: 210px 210px;
+gap : 10px;
+margin-bottom: 25px;
+justify-content: space-between;
+  }
 .activite-marseille .box1-4{
 
- 
-
-}     
+width: 90%;
+height: 412px;
+margin-right: 0px;
+}  
 .activite-marseille .img1-4{
 
- 
+width: 100%;
+height: 345px;
+
 }
 
+.activite-marseille .box2-3-5-6{
+
+width: 100%;
+height: 193px;
+
+} 
 
 
+.activite-marseille .box2-3-5-6{
 
+width: 80%;
+height: 193px;
 
+}
+.activite-marseille .img2-3-5-6 {
+  height: 147px;
+  width: 100%;
+  
+  }   
+.act1 {
+grid-column: 1/2;
+grid-row: 1/3;
 
-
+}
+.act4 {
+ grid-column: 4/5;
+ grid-row: 1/3;
+}
 
 }
