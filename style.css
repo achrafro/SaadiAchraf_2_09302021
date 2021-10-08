@@ -298,11 +298,14 @@ align-self: center;
 .activite-marseille {
 margin-top: 33px;
 height: 520px;
-width: 100%;
+width: 80%;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 align-items: center;
+margin-left: 25px;
+Justify-content: flex-start;
+
   }
 
 .titre-act-mrs h2 {
@@ -323,18 +326,17 @@ margin-left: 15px;
 
 .activite-marseille .box1-4{
 
-width: 223px;
+width: 200px;
 height: 400px;
 margin-top: 15px;
 border : 1px #ccc solid;
 border-radius: 25px;
 box-shadow: #ccc 5px 5px 5px;
-margin-right: 15px;
 }      
 
 .activite-marseille .img1-4{
 
-  width: 223px;
+  width: 200px;
   height: 345px;
   border-top-left-radius: 25px; 
   border-top-right-radius: 25px; 
@@ -345,20 +347,19 @@ margin-right: 15px;
 
 .activite-marseille .box2-3-5-6{
 
-width: 243px;
+width: 200px;
 height: 193px;
 margin-top: 15px;
 border : 1px #ccc solid;
 border-radius: 25px;
 box-shadow: #ccc 5px 5px 5px;
-margin-right: 15px;
-
+ 
 }      
 
 
 .activite-marseille .img2-3-5-6 {
+width: 200px;
 height: 147px;
-width: 243px;
 border-top-left-radius: 25px; 
 border-top-right-radius: 25px; 
 margin-bottom: 15px;
