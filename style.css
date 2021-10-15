@@ -172,7 +172,7 @@ margin-bottom: 15px;
 word-wrap: break-word;
 
 }
-.info p { padding-left: 20px;}
+.info span { padding-left: 20px;}
 .info .iconinfo {
 color: var(--bleu);
 padding :5px;
