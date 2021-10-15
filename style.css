@@ -10,8 +10,19 @@
 --bleuclair :#DEEBFF ;
 --gris : #F2F2F2; 
 }
-
-body{ font-family: 'Raleway', sans-serif; margin : 0;  overflow-x: hidden;}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body{ font-family: 'Raleway', sans-serif;
+   margin : 0; 
+     box-sizing: border-box;
+     
+    }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 margin-top: 0;
 margin-bottom: 0;
@@ -42,13 +53,19 @@ text-align: center;
 
 .logo { flex-grow: 4;}  
 
-.heberge {color: var(--bleu); padding: 21px; border-top: 2px solid var(--bleu);}
+.heberge {color: var(--bleu); padding: 21px; }
 .acti {color: gray; padding: 21px;}
 .inscrire {color: var(--bleu);  padding: 21px;}
 
-
-
-
+.inscrire:hover{
+  border-top: 2px solid var(--bleu);
+}
+.heberge:hover{
+  border-top: 2px solid var(--bleu);
+}
+.acti:hover{
+  border-top: 2px solid var(--bleu);
+}
 
 /*  Recherche logement  */
 
@@ -160,7 +177,10 @@ word-wrap: break-word;
 color: var(--bleu);
 padding :5px;
 border: 1px solid #ccc;
-border-radius: 50%;
+border-radius: 50% ;
+width:25px;
+height:25px;
+text-align: center;
 }
 
 /*  Les 2 conteneur : hebergement + plus populaire */
@@ -207,6 +227,8 @@ height: 50%;
 border-top-left-radius: 25px;
 border-top-right-radius: 25px;
 display: block;
+object-fit: cover;
+
 
 }
 .hebergement-name {
@@ -257,6 +279,7 @@ width: 40%;
 height: 106px;
 border-top-left-radius:25px ;
 border-bottom-left-radius:25px ;
+object-fit: cover;
 
 }
 .icontrend {
@@ -335,7 +358,7 @@ box-shadow: #ccc 5px 5px 5px;
 }      
 
 .activite-marseille .img1-4{
-
+  object-fit: cover;
   width: 200px;
   height: 345px;
   border-top-left-radius: 25px; 
@@ -358,6 +381,7 @@ box-shadow: #ccc 5px 5px 5px;
 
 
 .activite-marseille .img2-3-5-6 {
+object-fit: cover;
 width: 200px;
 height: 147px;
 border-top-left-radius: 25px; 

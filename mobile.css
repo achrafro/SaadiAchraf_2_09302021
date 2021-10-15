@@ -10,10 +10,15 @@
 
 body {
  margin: 0;
- }
+ box-sizing: border-box;
+ 
+  }
+ 
 .tout-sauf-footer {
 
   margin: 0;
+  box-sizing: border-box;
+
 
 }
 
@@ -24,6 +29,7 @@ header {
 
 margin-bottom: 20px;
 width: 100%;
+box-sizing: border-box;
 
 }
 .logo {
@@ -39,7 +45,7 @@ order : 3;
 border-top: none;
 padding: 0;
 padding-bottom: 20px;
-border-bottom: 3px solid var(--bleu);
+border-bottom: 3px solid var(--gris);
 }
 header .acti { 
   flex-basis: 50%;
@@ -57,10 +63,25 @@ header .inscrire {
   padding: 0;
 
 }
+
+.inscrire:hover{
+  border-top: none;
+}
+.heberge:hover{
+  border-top: none;
+  border-bottom: 3px solid var(--bleu);
+
+}
+.acti:hover{
+  border-top: none;
+  border-bottom: 3px solid var(--bleu);
+
+}
        /* Fin header*/
  
                /* Recherche logement */
-.recherche-logement { margin: 0 -14px;}
+.recherche-logement { margin: 0 ; box-sizing: border-box;
+}
   
 .recherche-logement .p1,.recherche-logement .p2  {margin-left: 10%;  }
  .btn_rech {
@@ -114,7 +135,7 @@ justify-content: center;
 .hebergement .box {
 width: 80%;
 background-color: white;
-margin: 15px auto; 
+margin: 15px 0; 
 
 }
 .hebergement .box img {
