@@ -235,11 +235,15 @@ object-fit: cover;
 width: 100%;
 display: block;
 margin-left: 5%;
+font-size: 13px;
+font-weight: 800;
 }
 .prix-hebergement {
 width: 100%;
 display: block;
 margin-left: 5%;
+font-weight: 600;
+
 
 } 
 .rating {
@@ -299,8 +303,8 @@ align-self: center;
 }
 
 .trend-hotel-name{
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 13px;
+  font-weight: 600;
   align-self: center;
 
 }
@@ -311,9 +315,11 @@ align-self: center;
   }
 .prix-trend {
   align-self: center;
+  font-size: 13px;
+  font-weight: 600;
 
 }
-.rating2  { align-self: flex-start;}
+.rating2  { align-self:flex-start; margin-left: 13px;}
 
 /*   Activite marseille  */
 
@@ -321,16 +327,19 @@ align-self: center;
 .activite-marseille {
 margin-top: 33px;
 height: 520px;
-width: 80%;
+width: 97%;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 align-items: center;
 margin-left: 25px;
 Justify-content: flex-start;
-
   }
+.activite-marseille h4 {
+  font-size: 13px;
+  font-weight: 600;
 
+}
 .titre-act-mrs h2 {
 margin-top: 25px;
 margin-left: 25px;
@@ -340,7 +349,7 @@ margin-left: 25px;
 .activite-marseille h4{
 
 margin-left: 15px;  
-
+margin-top: 2px;
 }
 
 
@@ -363,8 +372,7 @@ box-shadow: #ccc 5px 5px 5px;
   height: 345px;
   border-top-left-radius: 25px; 
   border-top-right-radius: 25px; 
-  margin-bottom: 15px;
-  }
+   }
   
 /*  box 2 + 3+ 5 + 6 property */
 
@@ -386,8 +394,7 @@ width: 200px;
 height: 147px;
 border-top-left-radius: 25px; 
 border-top-right-radius: 25px; 
-margin-bottom: 15px;
-}
+ }
 
 
 
