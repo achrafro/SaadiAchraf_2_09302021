@@ -185,7 +185,7 @@ text-align: center;
 
 /*  Les 2 conteneur : hebergement + plus populaire */
 
-main {
+.main {
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
