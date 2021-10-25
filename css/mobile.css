@@ -101,7 +101,7 @@ header .inscrire {
 
 
 .btn_rech::after {
-  content: url(images/loop.png);
+  content: url(../images/loop.png);
   text-indent: 0;
   display: block;
   width: 15px;
